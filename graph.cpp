@@ -3,6 +3,9 @@
 #include <stack>
 #include <list>
 
+//class definitions of digraph were written by my professor
+//However, the digraph depth first search (dfs) function was written by me!
+
 digraph::digraph(){
     _m = std::unordered_map<std::string, std::set<std::string>> ();
 }
@@ -81,6 +84,7 @@ std::istream & operator >>(std::istream & is, digraph & d){
     return is;
 }
 
+//This following code was written by me
 // pre: none
 // post: performs a depth first search on this digraph
 void digraph::dfs() const{
