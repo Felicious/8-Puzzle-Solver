@@ -1,3 +1,7 @@
+//Disclaimer: This following code was provided by my professor,
+//Nicholas Tran, to give us structure on how to approach the
+//assigment. I did not write this!
+
 #ifndef GRAPH_H
 #define GRAPH_H
 
@@ -55,3 +59,6 @@ std::ostream & operator << (std::ostream &, const digraph &);
 std::istream & operator >> (std::istream &, digraph &);
 
 #endif // GRAPH_H
+
+//This code was written by my professor, Nicholas Tran. This is posted here
+//for better understanding of how my code works!
